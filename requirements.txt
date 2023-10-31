@@ -1,2 +1,20 @@
-pytest==6.2.5
-pytest-azurepipelines==1.2.0
+# Example requirements.txt
+
+# Web framework
+Flask==2.1.1
+
+# Database integration (choose one, or add both if needed)
+SQLAlchemy==1.4.28  # SQL toolkit and Object-Relational Mapping (ORM)
+pymysql==1.0.2      # MySQL database adapter
+
+# Authentication
+Flask-Login==0.5.2  # User session management
+
+# Forms
+WTForms==2.3.3      # Web forms library
+
+# Testing (for development)
+pytest==6.2.5        # Testing framework
+pytest-flask==1.2.0  # Plugin for testing Flask applications
+
+# Additional packages (add as needed)
