@@ -1,0 +1,2 @@
+- script: python -c "print('Hello, World!')"
+  displayName: 'Build'
